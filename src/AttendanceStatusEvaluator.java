@@ -1,5 +1,5 @@
 import java.utill.Scanner;
-Class AttendanceStatusEvaluator
+Public Class AttendanceStatusEvaluator
   {
   public static void main(String args[])
     {
