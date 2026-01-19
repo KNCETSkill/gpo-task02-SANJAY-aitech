@@ -5,7 +5,18 @@ Class AttendanceStatusEvaluator
     {
     Scanner sc = new Scanner(System.in);
     int percentage = sc.nextInt();
-    System.out.println("Enter the Attendance Percentage: ");
-    if (percentage >
+    if (percentage > 85)
+    {
+      System.out.println("Excellent");
+    }
+    else if ((percentage >=60) && (percentage<=85))
+    {
+      System.out.println("Satisfactory");
+    }
+    else
+    {
+      System.out.println("Poor");
+    }
+    
     }
 }
